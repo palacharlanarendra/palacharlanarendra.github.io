@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+/*container to chance background image*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.contact-hero-full-container{
+    max-width:100%;
+    background:url("../hero/contact_hero.jpg") no-repeat;
+    height: 300px;
+    /* border:2px solid grey; */
+}
+.contact-full-container{
+	/* border:2px solid grey; */
+	max-width:60%;
+	margin:0px auto;
+}
+.contact-full-container .sub-heading{
+	padding-bottom: 0px;
+}
+.contact-form .contact-maps-img{
+	display: inline-block;
+}
+
+.contact-maps-img{
+	width: 100%;
+}
+.contact-form .contact-maps{
+	margin:150px 0 100px 0;
+}
+.contact-form-list li{
+	margin-bottom:20px;
+}
+.contact-form-list li i{
+	font-size: 30px;
+	color:rgb(163, 163, 163);
+}
+.contact-form-inputs{
+	flex:0 1 70%;
+	padding:30px;
+	align-self: flex-start;
+}
+.contact-form-list{
+	flex:0 1 20%;
+	padding:20px;
+	align-self: flex-start;
+}
+.contact-form-list address div{
+	margin-top:10px;
+	color:#949494;
+}
+.contact-form-list address{
+	margin-bottom:30px;
+}
+.contact-form-list address span{
+	color:#2d2d2d;
+	font-size: 20px;
+	font-weight: 600;
+}
+.contact-form-inputs .name{
+	width:45%;
+	padding:10px 0;
+	margin:20px 0;
+}
+.contact-form-inputs .email{
+	width:45%;
+	padding:10px 0;
+	margin-left:5%;
+}
+.contact-form-inputs .subject{
+	width:96%;
+	padding:10px 0;
+}
+.contactform-icon{
+	margin-right:20px;
+	margin-top:-40px;
+}
+.padding-left{
+	margin-left:30px;
+}
+.contact-form-inputs .btn-3{
+	margin:50px 0px 100px 0px;
+}
+.contact-form-inputs .text-area{
+	border:none;
+	color:grey;
+	padding-left:20px;
+	border:1px solid rgb(200, 200, 200);
+}
+.contact-form-inputs input{
+	
+	border:1px solid rgb(200, 200, 200);
+}
+.contact-form-inputs input::placeholder{
+	padding-left:20px;
+}
