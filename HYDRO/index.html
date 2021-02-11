@@ -1,0 +1,306 @@
+<!-- - Create a layout according to the design shown below.
+
+![Backgrounds and gradient Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/adding-media/ex-1.png)
+
+- Video link: https://www.youtube.com/watch?v=AqcjdkPMPJA#action=share
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <script src="https://kit.fontawesome.com/2bbf3cce3b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Hydro</title>
+</head>
+<body>
+    <header class="header">
+        <div class="box-container">
+            <div class="header-bar flex space-between">
+                <div class="brand-name">
+                    <h2>Hydro</h2>
+                </div>
+                <nav class="nav-bar flex space-between"> 
+                    <ul class="names flex">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Our Work</a></li>
+                        <li><a>Contacts</a></li>
+                    </ul>
+                    <ul class="icons flex space-between">
+                        <div class="icons-group flex">
+                            <li><a><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a><i class="fab fa-twitter"></i></a></li>
+                            <li><a><i class="fab fa-instagram"></i></a></li>
+                        </div>
+                        <li class="btn offset-btn red"><a>Sign in / Join</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-img">
+                <section class="box-container offset flex space-between">
+                    <article class="hero-article">
+                        <h1 class="hero-heading">We make beautiful websites for all people.</h1>
+                        <div class="flex center actual-width">
+                            <button class="btn btn-1 transparent btn1">Start a project</button>
+                            <p class="para margin-left-offset">CALL US (+66) 010-020-0340 For any inquiry</p>
+                        </div>
+                    </article>
+                    <div class="video">
+                        <iframe width="730" height="415" src="https://www.youtube.com/embed/AqcjdkPMPJA?start=21" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </section>
+    
+            </div>
+        </section>
+        <section class="introduce-section padding-top">
+            <div class="box-container flex space-between">
+                <div class="introduction-text flex space-between">
+                    <aside class="left-side-introduction">
+                        <h2  class="common-heading">Let us introduce</h2>
+                        <div class="flex square-group">
+                            <i class="fas fa-square"></i>
+                            <i class="fas fa-square"></i>
+                            <i class="fas fa-square"></i>
+                        </div>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Est quis hic quod, ut porro 
+                            excepturi dolor repellat iste, perspiciatis blanditiis
+                            corrupti veritatis dignissimos voluptatibus, 
+                            necessitatibus quos consectetur! Qui, nobis vel!
+                        </p>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Est quis hic quod, ut porro 
+                            excepturi dolor repellat iste, perspiciatis blanditiis
+                        </p>
+                    </aside>
+                    <div class="right-side-introduction">
+                        <div>
+                            <span class="flex space-between">
+                                <p>Web Design</p>
+                                <p>85%</p>
+                            </span>
+                            <div class="line line1"></div>
+                            <span class="flex space-between">
+                                <p>Photography</p>
+                                <p>90%</p>
+                            </span>
+                            <div class="line line2"></div>
+                            <span class="flex space-between">
+                                <p>Content Marketing</p>
+                                <p>75%</p>
+                            </span>
+                            <div class="line line3"></div>
+                            <span class="flex space-between">
+                                <p>CMS Admin</p>
+                                <p>70%</p>
+                            </span>
+                            <div class="line line4"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="introduction-img"></div>
+            </div>
+        </section>
+        <section class="blog-section ">
+            <div class="box-container padding-top padding-bottom">
+                <div class="flex-box">
+                    <h2 class="common-heading">Our Blog</h2>
+                    <div class="flex square-group">
+                        <i class="fas fa-square"></i>
+                        <i class="fas fa-square"></i>
+                        <i class="fas fa-square"></i>
+                    </div>
+                </div>
+                <div class="flex col col-1-1 space-between">
+                    <article class="box box-1-1 flex space-between">
+                        <div class="blog-image">
+                            <img src="./assets/images/blog-image1.jpg" alt="typing keyboard">
+                        </div>
+                        <div class="blog-text">
+                            <date>
+                                <i class="far fa-clock"></i>
+                                December 22, 2017
+                            </date>
+                            <h2>How To Find Out Beautiful Workspace.</h2>
+                            <p>Lorem ipsum, dolor sit amet conse ctetur adipisicing elit.</p>
+                            <button class="btn btn-2">Read article</button>
+                        </div>
+                    </article>
+                    <article class="box box-1-1 flex space-between">
+                        <div class="blog-image">
+                            <img src="./assets/images/blog-image2.jpg" alt="typing keyboard">
+                        </div>
+                        <div class="blog-text">
+                            <date>
+                                <i class="far fa-clock"></i>
+                                December 18, 2017
+                            </date>
+                            <h2>Woman Sportwear.</h2>
+                            <p>Lorem ipsum, dolor sit amet conse ctetur adipisicing elit.</p>
+                            <button class="btn btn-2">Read article</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="flex col col-margin col-1-2 space-between">
+                    <article class="box box-2-1 flex space-between">
+                        <div class="blog-image">
+                            <img src="./assets/images/blog-image3.jpg" alt="typing keyboard">
+                        </div>
+                        <div class="blog-text">
+                            <date>
+                                <i class="far fa-clock"></i>
+                                December 14, 2017
+                            </date>
+                            <h2>New Creative Fashion.</h2>
+                            <p>Lorem ipsum, dolor sit amet conse ctetur adipisicing elit.</p>
+                            <button class="btn btn-2">Read article</button>
+                        </div>
+                    </article>
+                    <article class="box box-2-2 flex space-between">
+                        <div class="blog-image">
+                            <img src="./assets/images/blog-image4.jpg" alt="typing keyboard">
+                        </div>
+                        <div class="blog-text">
+                            <date>
+                                <i class="far fa-clock"></i>
+                                December 10, 2017
+                            </date>
+                            <h2>Minimalist Design Trend In 2018.</h2>
+                            <p>Lorem ipsum, dolor sit amet conse ctetur adipisicing elit.</p>
+                            <button class="btn btn-2">Read article</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="work-section padding-offset">
+            <div class="flex-box">
+                <h2 class="common-heading">Our Work</h2>
+                <div class="flex square-group">
+                    <i class="fas fa-square"></i>
+                    <i class="fas fa-square"></i>
+                    <i class="fas fa-square"></i>
+                </div>
+            </div>
+            <div class="box-container  flex space-between">
+                <div class="work-box">
+                    <img src="./assets/images/work-image1.jpg" alt="savory"/>
+                </div>
+                <div class="work-box">
+                    <img src="./assets/images/work-image2.jpg" alt="bag"/>
+                </div>
+                <div class="work-box">
+                    <img src="./assets/images/work-image3.jpg" alt="photo frame"/>
+                </div>
+                <div class="work-box">
+                    <img src="./assets/images/work-image4.jpg" alt="accessories"/>
+                </div>    
+            </div>
+        </section>
+        <section class="contact-section padding-offset">
+            <div class="flex-box">
+                <h2 class="common-heading white-heading">Contact Us</h2>
+                <div class="flex square-group">
+                    <i class="fas fa-square"></i>
+                    <i class="fas fa-square"></i>
+                    <i class="fas fa-square"></i>
+                </div>
+            </div>
+            <div class="form box-container flex space-between">
+                <form class="form-detail">
+                    <div class="flex space-between">
+                        <input class="name" type="name" placeholder="Full Name"/>
+                        <input class="email" type="email" placeholder="Your Email"/>
+                    </div>
+                    <div class="flex space-between">
+                        <input class="phone" type="tel" placeholder="Your Phone"/>
+                        <input class="number" type="number" placeholder="Budget Level"/>
+                    </div>
+                    <div  class="flex">
+                        <textarea class="text-area" cols="80" rows="5">Your requirements</textarea>
+                    </div>
+                    <button class="btn btn-1 btn-3 red">Send Message</button>
+
+                </form>
+                <iframe class="round" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.6887392540679!2d100.5664478870262!3d13.75868568673014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29e8d1d1880b7%3A0x215cdc7915c9483f!2sCentral%20Plaza%20Grand%20Rama%209!5e0!3m2!1sen!2sin!4v1613037752933!5m2!1sen!2sin" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="box-container">
+            <div class="flex space-between">
+                <div class="box-3-1">
+                    <h2 class="common-heading">
+                        Hydro Company
+                    </h2>
+                    <p class="para white-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi laboriosam fuga ratione, labore aspernatur accusamus tenetur iure ut voluptatem reprehenderit cupiditate recusandae quia laudantium omnis doloremque expedita ipsam maiores ipsum?
+                    </p>
+                </div>
+                <nav class="flex space-between big-box">
+                    <nav class="box-3-2 box-3">
+                        <h2 class="common-heading">
+                            Company
+                        </h2>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Join our team</a></li>
+                            <li><a href="#">Read Blog</a></li>
+                            <li><a href="#">Press</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="box-3-3 box-3">
+                        <h2 class="common-heading">
+                            Services
+                        </h2>
+                        <ul>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="box-3-4 box-3">
+                        <h2 class="common-heading">
+                            Find us
+                        </h2>
+                        <address>
+                            123 Grand Rama IX,
+                            Krung Thep Maha Nakhon 10400
+                        </address>
+                    </nav>
+                </nav>
+            </div>
+            <div class="line-new"></div>
+            <section class="copyright flex space-around">
+               <div>
+                    <p>Copyright &copy; 2017 Your Company</p>
+               </div>
+               <div class="flex space-around footer-nav">
+                   <p>Call Us (+66)010-020-0340</p>
+                   <ul class="icons flex space-between">
+                        <div class="icons-group flex">
+                            <li><a><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a><i class="fab fa-twitter"></i></a></li>
+                            <li><a><i class="fab fa-instagram"></i></a></li>
+                        </div>
+                    </ul>
+               </div>
+               
+            </section>
+        </div>
+
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
