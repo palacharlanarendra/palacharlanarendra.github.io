@@ -1,8 +1,0 @@
-/* custom styles */
-/*container to chance background image*/
-.services-full-container{
-    max-width:100%;
-    background:url("../hero/services_hero.jpg") no-repeat;
-    height: 300px;
-    border:2px solid grey;
-}
