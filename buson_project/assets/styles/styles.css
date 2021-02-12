@@ -205,6 +205,7 @@ html{
 }
 .hero-wrapper h1{
     min-width:550px;
+
 }
 /*common boxes styles*/
 .box{
@@ -515,9 +516,10 @@ html{
     font-weight: 600;
    
 }
-.col li a,.col li address{
+.col li a,.col address{
     color:#9a9fa9 !important;
 }
+
 .logos p{
     color:#8a8d94 ;
     padding:30px 0;
