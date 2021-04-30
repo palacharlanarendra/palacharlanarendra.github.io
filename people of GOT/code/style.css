@@ -154,3 +154,28 @@ h1{
   margin:2rem;
   height:2rem;
 }
+@media screen and (max-width:1200px) {
+  html{
+      font-size: 12px;
+  }
+  .combinedBtn{
+    display:flex;
+    flex-direction: column;
+  }
+  .combinedBtn button:nth-child(5){
+    border:2px solid green;
+  }
+}
+@media screen and (max-width:640px) {
+  html{
+      font-size: 10px;
+  }
+}
+@media screen and (max-width:360px) {
+  html{
+      font-size: 6px;
+  }
+  button{
+    padding:4rem 0;
+  }
+}
