@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/2bbf3cce3b.js" crossorigin="anonymous"></script>
+    <title>Rock Paper and Scissors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="container flex">
+      <div class="wrapper">
+        <h1 class="heading">Rock Paper Scissors</h1>
+      <article>
+                  <h2 class="user_score">You-<span>0</span ><span class="userSelect blue"></span></h2>
+              
+                <div class="user_choice">
+                  <!-- Rock -->
+                  <i class="fa fa-hand-rock-o user_color" aria-hidden="true" data-choice="Rock"></i>
+            
+                  <!-- Paper -->
+                  <i class="fa fa-hand-paper-o user_color" aria-hidden="true" data-choice="Paper"></i>
+            
+                  <!-- Scissors -->
+                  <i class="fa fa-hand-scissors-o user_color" aria-hidden="true" data-choice="Scissors"></i>
+                </div>
+                <h2 class="computer_score">Computer-<span>0</span><span class="computerSelect red"></span></h2>
+                <div class="computer_choice">
+                  <!-- Rock -->
+                  <i class="fa fa-hand-rock-o computer_color" aria-hidden="true" data-choice="Rock"></i>
+            
+                  <!-- Paper -->
+                  <i class="fa fa-hand-paper-o computer_color" aria-hidden="true" data-choice="Paper"></i>
+            
+                  <!-- Scissors -->
+                  <i class="fa fa-hand-scissors-o computer_color" aria-hidden="true" data-choice="Scissors"></i>
+                </div>
+                
+                <div class="reload_div">
+                  <i class="fas fa-sync-alt reload"></i>
+                </div>
+                <h2 class="message">Result</h2>
+        </article>
+      </div>
+    </section>
+    
+    <script src="./script.js"></script>
+   
+    
+  </body>
+</html>
