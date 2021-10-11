@@ -1,0 +1,183 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image:linear-gradient(to right top, #74805b, #829a53, #8fb448, #9ccf37, #a8eb12) ;
+}
+.navbar-section{
+    position:absolute;
+    width:100%;
+}
+.hero-section{
+    height:100vh;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    width:1600px;
+    max-width:100%;
+    padding:0.5rem 1rem;
+}
+.logo{
+    background-color: rgba(41, 175, 64, 0.945);
+    padding:0.5rem;
+}
+.logo img{
+    width:20rem;
+}
+
+.nav li a {
+    color:white;
+    text-decoration: none;
+    margin-left:2rem;
+    font-weight: 800;
+}
+.active-btn{
+    color:rgb(47, 47, 47)!important;
+}
+.nav a:hover{
+    color:grey;
+}
+.color{
+    width: 10rem;
+    border:none;
+    height: 4rem;
+    margin:0rem 1rem 0rem 1rem;
+}
+.colors{
+    margin:1rem;
+}
+.right-top{
+    transform: rotate(-45deg);
+}
+.right-bottom{
+    transform: rotate(45deg);
+}
+.left-bottom{
+    transform: rotate(-45deg);
+}
+.left-top{
+    transform: rotate(45deg);
+}
+.icon span i {
+    font-size: 2rem;
+    color:rgb(255, 255, 255);
+}
+.icon span i:hover {
+    color:grey;
+}
+.icon span{
+    padding:1.5rem;
+}
+.button{
+    padding:1rem 2rem 1rem 2rem;
+    background-color: #6DCBB7;
+    color:white;
+    margin-top:2rem;
+    border-radius:1rem;
+    font-size: 1rem;
+    border:none;
+    font-weight: 700;
+}
+button:focus {
+    outline:0;
+}
+.main-heading,.sub-heading{
+    color:white;
+}
+.sub-heading{
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.main-heading{
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 2rem;
+}
+.code{
+    font-family: 'Space Mono', monospace;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    border-left: 3px solid #fff;
+    background-color: rgba(71, 71, 71, 0.1);
+    padding: 15px 8px 15px 17px;
+    border-radius: 5px;
+    color: white;
+}
+.code-heading{
+    text-align: left;
+    color:white;
+    font-weight: 700;
+    padding:0.5rem 0rem;
+    font-size: 1rem;
+}
+.code-article{
+    width:30rem;
+    max-width:100%;
+    margin:2rem;
+}

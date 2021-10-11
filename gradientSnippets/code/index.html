@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chrome Extension</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="https://kit.fontawesome.com/2bbf3cce3b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body id="load">
+    <main>
+      <section class="navbar-section">
+        <nav class="navbar container flexbox">
+          <div class="logo">
+            <img src="./assets/images/gradient-snippets.png" alt="gradient snippets logo"/>
+          </div>
+          <ul class="flexbox nav">
+            <li><a class="active-btn" href="./index.html">GRADIENT</a></li>
+            <li><a href="./threeColorGradient.html">3-COLOR-GRADIENT </a></li>
+            <li><a href="https://twitter.com/narendrapalach1">CONTACT</a></li>
+          </ul>
+        </nav>
+      </section>
+      
+      <section class="hero-section flex">
+        <h1 class="main-heading">Generate a CSS Color Gradient</h1>
+        <h3 class="sub-heading">Choose orientation</h3>
+        <spanGrp class="icon">
+          <span>
+            <i data-name="to right top" class="fa fa-arrow-right right-top"></i>
+          </span>
+          <span>
+            <i data-name="to right" class="fa fa fa-arrow-right"></i>
+          </span>
+          <span>
+            <i data-name="to right bottom" class="fa fa-arrow-right right-bottom"></i>
+          </span>
+          <span>
+            <i data-name="to bottom" class="fa fa-arrow-down bottom"></i>
+          </span>
+          <span>
+            <i data-name="to left bottom" class="fa fa-arrow-left left-bottom"></i>
+          </span>
+          <span>
+            <i data-name="to left" class="fa fa-arrow-left"></i>
+          </span>
+          <span>
+            <i data-name="to left top" class="fa fa-arrow-up"></i>
+          </span>
+          <span>
+            <i data-name="circle" class="fa fa-undo"></i>
+          </span>
+        </spanGrp>
+        <h3 class="sub-heading">Enter colors</h3>
+        <section class="colors">
+          <input type="color" class="color1 color">
+          <input type="color" class="color2 color">
+        </section>
+
+        <button class="button">Generate</button>
+        <article class="code-article">
+          <h4 class="code-heading">CSS Code:</h4>
+          <code class="code">
+  
+          </code>
+        </article>
+      </section>
+     
+      
+    </main>
+    <script src="./script/script.js"></script>
+    <script src="./script/fontawesome.js"></script> 
+  </body>
+</html>
